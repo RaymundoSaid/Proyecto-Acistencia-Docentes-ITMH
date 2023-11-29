@@ -84,7 +84,7 @@ class SistemaAsistencia:
 
         servidor_correo = smtplib.SMTP("smtp.gmail.com", 587)
         servidor_correo.starttls()
-        servidor_correo.login("raysaidas12@gmail.com", "Ray123456789(0)")
+        servidor_correo.login("raysaidas12@gmail.com", "contraseña")
 
         mensaje_correo = MIMEMultipart()
         mensaje_correo["From"] = "raysaidas12@gmail.com"
