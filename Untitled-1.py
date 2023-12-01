@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
-
+usuarios = {"alumno": "123456", "jefe_academico": "password_jefe", "subdirector_academico": "password_subdirector"}
 
 class SistemaAsistencia:
     def __init__(self, ventana):
